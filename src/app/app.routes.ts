@@ -7,9 +7,9 @@ import {ContatosComponent} from './contatos/contatos.component'
 import {DisciplinasComponent} from './disciplinas/disciplinas.component'
 
 export const ROUTES:Routes = [
-    {path:'/', component: HomeComponent},
-    {path:'/home', component:HomeComponent},
-    {path:'/disciplinas', component:DisciplinasComponent},
-    {path:'/alunos', component:AlunosComponent},
-    {path:'/contatos', component:ContatosComponent}
+    {path:'', component: HomeComponent},
+    {path:'home', component:HomeComponent},
+    {path:'disciplinas', component:DisciplinasComponent},
+    {path:'alunos', component:AlunosComponent},
+    {path:'contatos', component:ContatosComponent}
 ]
